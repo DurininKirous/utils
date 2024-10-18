@@ -1,3 +1,3 @@
-module github.com/DurininKirous/GoCourse/utils
+module github.com/DurininKirous/utils
 
 go 1.23.1
