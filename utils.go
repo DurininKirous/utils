@@ -1,9 +1,9 @@
 package utils
 
-func Contains(str string, slices []string) bool {
+func Contains(a string, slices []string) bool {
 	var res bool = false
 	for _, slice := range slices {
-		if slice == str {
+		if slice == a {
 			res = true
 			break
 		}
