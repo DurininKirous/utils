@@ -11,7 +11,7 @@ func InSlice(str string, slices []string) bool {
 	return res
 }
 
-func ContainsInt(dig int, slices []int) bool {
+func InSliceInt(dig int, slices []int) bool {
 	var res bool = false
 	for _, slice := range slices {
 		if slice == dig {
